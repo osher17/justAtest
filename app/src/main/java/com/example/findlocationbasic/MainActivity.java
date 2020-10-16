@@ -41,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
+
+        Log.e("TAG", "onCreate: ");
         setContentView(R.layout.activity_main);
         type_sw = (Switch)findViewById(R.id.type_sw);
         type_txt = (TextView)findViewById(R.id.type_txt);
